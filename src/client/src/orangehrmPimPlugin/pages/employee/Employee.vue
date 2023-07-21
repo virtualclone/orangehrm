@@ -60,6 +60,9 @@
             <oxd-grid-item>
               <subunit-dropdown v-model="filters.subunitId" />
             </oxd-grid-item>
+           <oxd-grid-item>
+              <workshift-dropdown v-model="filters.workshiftId" />
+            </oxd-grid-item>
           </oxd-grid>
         </oxd-form-row>
 
